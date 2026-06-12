@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Bordereau 87151</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gafac - Vérification du reçu 87151</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #616161; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header-bande {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1.3rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .content-container {
+            margin-top: 60px; 
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 10px;
+        }
+
+        .bordereau-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            display: block;
+        }
+    </style>
 </head>
 <body>
-  <h1>Bordereau de paiement #87151</h1>
-  <img src="unikin-recu.jpg" alt="Reçu UNIKIN" width="600">
-  <p>Montant payé : 50 000 CDF</p>
-  <p>Date : 12 juin 2026</p>
+
+    <div class="header-bande">
+        gafac.cd
+    </div>
+
+    <div class="content-container">
+        <img src="photo_2026-06-12_16-54-59.jpg" alt="Vérification du reçu de paiement" class="bordereau-img">
+    </div>
+
 </body>
 </html>
